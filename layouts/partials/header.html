@@ -1,0 +1,17 @@
+<div id="nav-border" class="container">
+  <div class="text-center container-md coffee-header">
+    <p class="title">{{ .Site.Title }}</p>
+  </div>
+  <nav id="nav" class="nav justify-content-center">
+      {{ range .Site.Menus.main }}
+      <a class="nav-item" href="{{ .URL }}">
+      {{ if .Pre }}
+      {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+      {{ $icon }}
+      {{ end }}
+      {{ $text := print .Name | safeHTML }}
+      {{ $text }}
+      </a>
+      {{ end }}
+  </nav>
+</div>
