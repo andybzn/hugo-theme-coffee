@@ -1,5 +1,21 @@
 # Coffee theme for Hugo
 
+## Getting Started
+
+1. Install this theme
+
+```git
+git submodule add https://github.com/dark-coffee/hugo-theme-coffee.git themes/coffee
+```
+
+2. Amend your `config.toml` to read
+
+```toml
+theme = "coffee"
+```
+
+3. Start your hugo server with `hugo server`
+
 ## License
 
 The MIT License (MIT)
