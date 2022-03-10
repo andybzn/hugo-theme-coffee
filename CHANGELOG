@@ -1,0 +1,8 @@
+# Changelog
+
+## 2022.03.10 |  Version 1.0.0
+
+- [x] Initial theme creation
+- [x] Remove bootstrap & flutter
+- [x] Support for `Author` in `.Site.Params`
+- [x] General cleanup
